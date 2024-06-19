@@ -38,7 +38,7 @@ tasks.register("checkFile") {
 
 tasks.register("copyFile") {
     val sourcePath = "app2/src/main/resources/text"
-    val destinationPath = "app2/build/resources/text"
+    val destinationPath = "app1/src/main/resources"
 
     doLast {
         val sourceFile = file(sourcePath)
